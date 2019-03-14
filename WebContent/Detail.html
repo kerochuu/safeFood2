@@ -61,13 +61,14 @@
 
 
 
-					
+
 					<div class="col mb-2 mb-md-0 ">
 						<button type="submit"
 							class="btn btn-block btn-lg btn-primary caret"
 							style="height: 50px; color: blue; background-color: white;">공지사항</button>
 					</div>
-					<div class=" col mb-2 mb-md-0 dropdown" style="float: left;" id="target">
+					<div class=" col mb-2 mb-md-0 dropdown" style="float: left;"
+						id="target">
 						<button type="submit"
 							class="btn btn-block btn-lg btn-primary caret dropdown-toggle"
 							data-toggle="dropdown"
@@ -79,7 +80,8 @@
 						</ul>
 
 					</div>
-					<div class=" col mb-2 mb-md-0 dropdown" style="float: left;" id="target">
+					<div class=" col mb-2 mb-md-0 dropdown" style="float: left;"
+						id="target">
 						<button type="submit"
 							class="btn btn-block btn-lg btn-primary caret dropdown-toggle"
 							data-toggle="dropdown"
@@ -91,15 +93,17 @@
 						</ul>
 
 					</div>
-				
+
 				</div>
 			</div>
 
 
 			<div class="col">
 				<div class="col">
-					<a href="Login.html" type="submit" class="btn btn-block btn-lg btn-primary">로그인</a>
-					<a href="Join.html" type="submit" class="btn btn-block btn-lg btn-primary">회원가입</a>
+					<a href="Login.html" type="submit"
+						class="btn btn-block btn-lg btn-primary">로그인</a> <a
+						href="Join.html" type="submit"
+						class="btn btn-block btn-lg btn-primary">회원가입</a>
 				</div>
 			</div>
 
@@ -153,37 +157,66 @@
 	<!-- Icons Grid -->
 	<section class="features-icons bg-light text-center">
 		<div class="container">
-			
-			
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-						<div class="features-icons-icon d-flex">
-							<i class="icon-screen-desktop m-auto text-primary"></i>
+			<h2>제품 정보</h2>
+			<!-- 아이콘넣기 -->
+
+
+			<div class="row no-gutters">
+				<div class="col-lg-3 text-white showcase-img"
+					style="background-image: url('Resources/img/conpang.jpg'); width: 600px; height: 400px; margin: 0 auto"></div>
+				<div class="col-lg-9 my-auto showcase-text">
+
+					<div class="row no-gutters" style="margin: 0 0 30px 20px;">
+						<div class="col-lg-3 my-auto showcase-text">
+							<h2>제품명</h2>
 						</div>
-						<h3>모든 식품정보</h3>
-						<p class="lead mb-0">대부분의 제품정보를 검색할 수 있습니다</p>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-						<div class="features-icons-icon d-flex">
-							<i class="icon-layers m-auto text-primary"></i>
+						<div class="col-lg-6 my-auto showcase-text">
+							<h2 id = "name">콘팡</h2>
 						</div>
-						<h3>빠른 검색속도</h3>
-						<p class="lead mb-0">최적화된 알고리즘으로 빠르게 결과를 출력합니다</p>
 					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="features-icons-item mx-auto mb-0 mb-lg-3">
-						<div class="features-icons-icon d-flex">
-							<i class="icon-check m-auto text-primary"></i>
+					<div class="row no-gutters" style="margin: 0 0 30px 20px;">
+						<div class="col-lg-3 my-auto showcase-text">
+							<h2 >제조사</h2>
 						</div>
-						<h3>쉬운 사용성</h3>
-						<p class="lead mb-0">설명서 없어도 쉽게 쓸 수 있습니다</p>
+						<div class="col-lg-6 my-auto showcase-text">
+							<h2 id = "vender">포켓몬센터</h2>
+						</div>
 					</div>
+					<div class="row no-gutters" style="margin: 0 0 30px 20px;">
+						<div class="col-lg-3 my-auto showcase-text">
+							<h2>원재료</h2>
+						</div>
+						<div class="col-lg-6 my-auto showcase-text">
+							<h2 >귀여움</h2>
+						</div>
+					</div>
+					<div class="row no-gutters">
+						<div class="col-lg-3 my-auto showcase-text">
+							<h2>알레르기성분</h2>
+						</div>
+						<div class="col-lg-6 my-auto showcase-text">
+							<h2>콘팡</h2>
+						</div>
+					</div>
+					<div class="row no-gutters" style="margin: 80px 0 0px 20px;">
+						<div class="col-lg-6 my-auto showcase-text">
+							<h2>수량</h2>
+							<input type="number" min="0" placeholder="1">
+						</div>
+						<div class="col-lg-3 my-auto showcase-text">
+							<button type="submit" class="btn btn-block btn-lg btn-primary">추가!</button>
+
+						</div>
+					</div>
+
+
+
+
 				</div>
 			</div>
+
+
+
 		</div>
 	</section>
 
@@ -192,31 +225,18 @@
 	<!-- Image Showcases -->
 	<section class="showcase">
 		<div class="container-fluid p-0">
+			<h2>영양정보</h2>
+
 			<div class="row no-gutters">
 
-				<div class="col-lg-6 order-lg-2 text-white showcase-img"
-					style="background-image: url('Resources/img/bg-showcase-1.jpg');"></div>
-				<div class="col-lg-6 order-lg-1 my-auto showcase-text">
-					<h2>안전한 먹거리</h2>
-					<p class="lead mb-0">각종 알레르기 정보 출력
+				<div class="col-lg-4 order-lg-1 text-white showcase-img"
+					style="background-image: url('Resources/img/graph.jpg');"></div>
+				<div class="col-lg-6 order-lg-2 my-auto showcase-text">
+					<h2>일일제공량 어쩌고저쩌고</h2>
+					<p class="lead mb-0">다음pair할때 짝꿍 갈아넣어서 합니다
 				</div>
 			</div>
-			<div class="row no-gutters">
-				<div class="col-lg-6 text-white showcase-img"
-					style="background-image: url('Resources/img/bg-showcase-2.jpg');"></div>
-				<div class="col-lg-6 my-auto showcase-text">
-					<h2>개인별 최적화된 음식추천</h2>
-					<p class="lead mb-0">먹으면 안되는 음식을 자동으로 출력
-				</div>
-			</div>
-			<div class="row no-gutters">
-				<div class="col-lg-6 order-lg-2 text-white showcase-img"
-					style="background-image: url('Resources/img/bg-showcase-3.jpg');"></div>
-				<div class="col-lg-6 order-lg-1 my-auto showcase-text">
-					<h2>건강한 먹거리</h2>
-					<p class="lead mb-0">식품별 영양소 함량 출력
-				</div>
-			</div>
+
 		</div>
 	</section>
 
